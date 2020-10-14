@@ -10,8 +10,9 @@ public class Personne {
 	this.prenom = validate(prenom, 30);
 	}
 	private String validate (String chaine, Integer taille)
-	{ // Vérifie la taille et renvoie une chaîne tronquée
-	// si la taille est supérieure à taille
+	{
+		nom.length();
+		prenom.length();
 	return chaine; }
 	public String toString() {return this.nom + " " + this.prenom; }
 
