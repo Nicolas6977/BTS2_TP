@@ -12,7 +12,9 @@ public class Personne {
 	private String validate (String chaine, Integer taille)
 	{
 	
-	return chaine; }
+	return chaine;
+
+	}
 	public String toString() {return this.nom + " " + this.prenom; }
 
 }
