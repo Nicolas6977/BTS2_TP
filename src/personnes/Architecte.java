@@ -5,6 +5,7 @@ public class Architecte extends Personne {
   private boolean inscriptionOrdre;
   private Adresse adresse;
   private String telephone;
+  public String getConseilRegional;
 
   public Architecte(String nom, String prenom, String conseilRegional, boolean
   inscriptionOrdre, Adresse adresse, String telephone) {
@@ -25,7 +26,7 @@ public class Architecte extends Personne {
     return b;
   }
   public void Maj_conseilRegional() {
-    if (this.getConseilRegional() == null) this.setConseilRegional("Conseil regional non renseigne");
+    if (this.getConseilRegional() == null)this.setConseilRegional("Conseil regional non renseigne");
   }
 
   public String toString() {

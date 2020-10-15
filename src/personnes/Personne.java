@@ -9,7 +9,7 @@ public class Personne {
 	this.nom = validate(nom, 50);
 	this.prenom = validate(prenom, 30);
 	}
-	private String validate (String chaine, Integer taille)
+	protected String validate (String chaine, Integer taille)
 	{
 	
 	return chaine;
